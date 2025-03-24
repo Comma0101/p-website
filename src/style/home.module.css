@@ -49,8 +49,9 @@
   text-transform: uppercase;
   color: #f0f0f0;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
+  white-space: nowrap;
 }
 
 /* Each letter is an inline-block for individual animation control */

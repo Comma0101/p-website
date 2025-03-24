@@ -4,6 +4,7 @@ import { useEffect, useRef } from "preact/hooks";
 import gsap from "gsap";
 import styles from "../style/home.module.css";
 import { getAccessToken } from "../api/PocketApi";
+import ThreeScene from "../components/ThreeScene";
 
 const Home: FunctionalComponent = () => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -128,6 +129,7 @@ const dream = () => "Create Magic";`}
           <Link href="/projects" class={styles.interactiveLink}>
             Projects
           </Link>
+          <ThreeScene />
         </div>
       </div>
     </div>
